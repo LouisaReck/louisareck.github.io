@@ -1,5 +1,5 @@
 import React from "react";
-import pendeln1 from "../../assets/pendeln1.png";
+import Pendeln1 from "../../assets/Pendeln1.png"
 
 const Landing = () => {
   return (
@@ -34,7 +34,7 @@ const Landing = () => {
         </div>
 
         <div className="pendeln__img">
-          <img src={pendeln1} alt="" className="pendeln__img-img" />
+          <img src={Pendeln1} alt="" className="pendeln__img-img" />
         </div>
       </div>
     </section>
