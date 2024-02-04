@@ -1,0 +1,410 @@
+/* =============== GOOGLE FONTS =============== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* =============== VARIABLES CSS =============== */
+:root {
+  --header-height: 3rem;
+
+  /* ========== colors ========== */
+  /* Color mode HSL(hue, saturation, lightness) */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 95%);
+  --accent-color: #A0B4B7;
+  --accent-color-dark: #6E8C91;
+  --container-color: #fff;
+
+  /* =============== font and typography =============== */
+  --body-font: "Poppins", sans-serif;
+
+  /* .5rem = 8px | 1rem = 16px ... */
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --smal-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /* =============== Font weight =============== */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* =============== Margenes Bottom =============== */
+  /* .5rem = 8px | 1rem = 16px ... */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /* =============== Z index =============== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+  :root{
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --smal-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+/* =============== BASE =============== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body{
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =============== REUSABLE CSS CLASSES =============== */
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__title-small {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--smal-font-size);
+  margin-bottom: 4rem;
+}
+
+.section__title, 
+.section__title-small,
+.section__subtitle {
+  text-align: center;
+}
+
+.section__text-1 {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-3);
+}
+
+.section__text-2 {
+  padding: 0 4rem 0 0;
+  margin-bottom: var(--mb-2-5);
+}
+
+.section__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.section__img-2 {
+  justify-self: center;
+}
+
+/* .banner__container {
+  position: relative;
+  display: flex;
+}
+.bannerImage__container {
+  position: absolute;
+  top: -200px;
+  right: 0;
+  z-index: -2;
+  max-width: 700px;
+}  */
+
+.landing__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.landing__data {
+  width: 500px;
+  display: grid;
+  place-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+  margin: 0 auto;
+}
+
+.landing__icon i {
+  margin-bottom: var(--mb-1);
+  font-size: 2rem;
+  color: var(--title-color);
+}
+
+.landing__icon p {
+  margin-bottom: var(--mb-1);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  font-family: var(--font-normal);
+}
+
+/* =============== SWIPER  =============== */
+
+.swiper__card {
+  margin-bottom: var(--mb-3);
+  display: inline-block;
+  text-align: center;
+}
+
+.swiper__subtitle {
+  display: block;
+  font-size: var(--tiny-font-size);
+  margin-top: 1rem;
+}
+
+.swiper__subtitle-long {
+  display: block;
+  font-size: var(--smaller-font-size);
+  margin-top: 1rem;
+}
+
+
+/* =============== LAYOUT  =============== */
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* =============== BUTTONS =============== */
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* =============== BREAKPOINTS =============== */
+/* For large devices */
+@media screen  and (max-width: 992px){
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+  .swiper__card {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .landing__container {
+    row-gap: 2.5rem;
+  }
+
+  .banner__container {
+    position: initial;
+    display: flex;
+  }
+
+  .section__container {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+
+  .section__text-1 {
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .section__text-2 {
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+  
+}
+
+/* For medium devices */
+@media screen  and (max-width: 768px){
+  body {
+    margin: 0 0 var(--header-height) 0;
+
+  }
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
+  }
+
+  /* .landing__container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse; 
+  }
+
+  .landing__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    
+  }
+
+  .bannerImage__container{
+    order: 1;
+    top: 0px;
+    max-width: 550px;
+  } */
+
+  .landing__container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    flex-direction: column-reverse; 
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .landing__info {
+    display: grid;
+    place-items: center;
+  }
+
+  .exhale__img {
+    margin-top: 2rem; /* Add space between the image and landing__info */
+  }
+  
+  .landing__data {
+    max-width: 600px; 
+    margin-top: 2rem; 
+    place-items: center;
+  }
+  
+}
+
+@media screen  and (max-width: 576px){
+  .bannerImage__container{
+    order: 1;
+    top: 0px;
+    max-width: 550px;
+  }
+
+  .section__text-2 {
+    padding: 0;
+}
+
+.landing__data {
+  width: 350px; 
+}
+  
+}
+
+/* For small devices */
+@media screen  and (max-width: 350px){
+  :root {
+    --big-font-size: 2.25rem;
+
+  }
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .bannerImage__container{
+    order: 1;
+    
+  }
+
+  .landing__data {
+    width: 288px;
+  }
+
+  .landing__icon h2 {
+    font-size: var(--h3-font-size);
+  }
+
+  .landing__icon p {
+    font-size: var(--smaller-font-size);
+  }
+}
+

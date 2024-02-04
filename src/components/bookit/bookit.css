@@ -1,0 +1,150 @@
+.bookit__img {
+    justify-self: center;
+}
+
+
+.bookit__img-img {
+    width: 500px;
+    justify-self: center;
+    order: 1;
+}
+
+.bookit__img-text {
+    font-size: var(--tiny-font-size);
+    justify-self: center;
+    text-align: center;
+}
+
+.bookit__description {
+    margin-bottom: var(--mb-2-5);
+    width: 400px;
+}
+
+.section__bookit-problem {
+    background-color: #D9DEE2;
+}
+
+.bookit__scroll {
+    margin-left: 8%;
+}
+
+.bookit__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.bookit__description {
+    max-width: 400px;
+    margin-bottom: var(--mb-3);
+}
+
+
+.bookit__overview-description {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+}
+
+.bookit__demo {
+    width:100%;
+    margin-top: 2rem;
+}
+
+.section__container-bookit-1 {
+    grid-template-columns: 300px 768px;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.section__container-bookit-2 {
+    grid-template-columns: 700px 368px;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.section__title-bookit {
+    font-size: var(--h3-font-size);
+    text-align: left;
+    margin-bottom: var(--mb-0-25);
+}
+
+.section__img-2-bookit {
+    width: 600px;
+}
+.result__img-img {
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.result__container-bookit{
+    max-width: 968px;
+}
+
+.bookit__image {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.overview__menu-img {
+    display: grid;
+    place-items: center;
+}
+
+   /* =============== BREAKPOINTS =============== */
+/* For large devices */
+@media screen  and (max-width: 992px){
+
+    .bookit__img {
+        order: 2; 
+      }
+
+
+    .bookit__img-img {
+        width: 350px;
+    }
+
+
+    .bookit__description {
+        margin-bottom: 2rem;
+    }
+
+    .bookit__scroll {
+        margin-left: 0rem;
+    }
+
+    .result__container-bookit{
+        max-width: 850px;
+    }
+
+  }
+
+  /* For medium devices */
+@media screen  and (max-width: 768px){
+    .bookit__img {
+        justify-self: center;
+        margin-left: 10rem;
+    }
+
+    .result__container-bookit{
+        max-width: 650px;
+    }
+    
+  }
+  
+  /* For medium devices */
+  @media screen  and (max-width: 576px){
+    .about__description {
+        padding: 0;
+    }
+
+    .bookit__img {
+        justify-self: center;
+        margin-left: 1rem;
+    }
+
+    
+  }
+  

@@ -1,0 +1,42 @@
+pendeln__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.pendeln__img {
+    justify-self: center;
+}
+
+
+.pendeln__img-img {
+    width: 500px;
+    justify-self: center;
+    order: 1;
+}
+
+.pendeln__description {
+    margin-bottom: var(--mb-3);
+    max-width: 400px;
+}
+
+.pendeln__container {
+    width: 968px;
+}
+
+
+.concept__image {
+    height: 350px;
+}
+
+
+
+/* =============== BREAKPOINTS =============== */
+
+/* For small devices */
+@media screen  and (max-width: 350px){
+    .concept__image {
+        height: 200px;
+    }
+
+  
+}
