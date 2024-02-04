@@ -5,7 +5,6 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
-import Skills from "./components/Skills/Skills";
 import Qualifications from "./components/qualifications/Qualifications";
 import Portfolio from "./components/work/Portfolio";
 import Footer from "./components/footer/Footer";
@@ -13,6 +12,7 @@ import Scrollup from "./components/scrollup/Scrollup";
 import Exhale from "./components/exhale/Exhale";
 import Bookit from "./components/bookit/Bookit";
 import Pendeln from "./components/pendeln/Pendeln";
+import Skills from "./components/skills/Skills";
 
 const App = () => {
   return (
