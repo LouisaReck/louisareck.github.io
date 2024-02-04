@@ -397,6 +397,7 @@ img {
 
   .landing__data {
     width: 288px;
+    align-self: auto;
   }
 
   .landing__icon h2 {
