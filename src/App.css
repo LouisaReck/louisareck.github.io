@@ -390,9 +390,13 @@ img {
     margin-right: var(--mb-1);
   }
 
-  .bannerImage__container{
+  /* .bannerImage__container{
     order: 1;
     
+  } */
+
+  .swiper__subtitle-long {
+    padding: 0 1rem 0 1rem;
   }
 
   .landing__data {

@@ -20,12 +20,12 @@ pendeln__title {
 }
 
 .pendeln__container {
-    width: 968px;
+    max-width: 968px;
 }
 
 
 .concept__image {
-    height: 350px;
+    height: 500px;
 }
 
 

@@ -49,7 +49,7 @@ const Process = () => {
         </p>
       </div>
 
-      <h2 className="section__title-small">Ideation and Concept development</h2>
+      <h2 className="section__title-small">Ideation & Concept development</h2>
       <span className="section__subtitle">From ideas to concepts</span>
 
       <div className="section__container container grid">
@@ -77,7 +77,7 @@ const Process = () => {
         pagination={true}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="pendeln__container section"
+        className="pendeln__container"
       >
         <SwiperSlide className="swiper__card">
           <img src={pendelnConcept1} alt="" className="concept__image" />
