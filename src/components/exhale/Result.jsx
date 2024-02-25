@@ -1,11 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
-import exhaleMockup from "../../assets/exhaleMockup.png";
-import exhaleGif from "../../assets/exhaleGif.gif";
 import usertask1_1 from "../../assets/usertask1-1.png";
 import usertask1_2 from "../../assets/usertask1-2.png";
 import usertask1_3 from "../../assets/usertask1-3.png";
@@ -43,8 +36,6 @@ const Result = () => {
           friends' activities, making it easier for them to develop a consistent
           exercise habit and achieve their fitness goals.
         </p>
-        {/* <img src={exhaleGif} alt="" className="exhale__gif" /> */}
-        {/* <img src={exhaleMockup} alt="" className="exhale__mockup container" /> */}
       </div>
 
 
@@ -71,71 +62,6 @@ const Result = () => {
           <img className="card__image" src={usertask3_2} />
           <img className="card__image" src={usertask3_3} />
         </div>
-
-
-      {/* <Swiper
-        pagination={true}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="result__container"
-      >
-        <SwiperSlide className="swiper__card">
-          <img src={exhaleDemo1} alt="" className="demo__image" />
-          <span className="swiper__subtitle">Demo user task 1</span>
-        </SwiperSlide>
-        <SwiperSlide className="swiper__card">
-          <img src={exhaleDemo2} alt="" className="demo__image" />
-          <span className="swiper__subtitle">Demo user task 2</span>
-        </SwiperSlide>
-        <SwiperSlide className="swiper__card">
-          <img src={exhaleDemo3} alt="" className="demo__image" />
-          <span className="swiper__subtitle">Demo user task 3</span>
-        </SwiperSlide>
-      </Swiper> */}
-
-      {/* <div className=" result__demo">
-        <h2 className="section__title">Plan your activities</h2>
-        <span className="section__subtitle">
-          User Task 1
-        </span>
-        <div className="result__img">
-          <img src={exhaleDemo1} alt="" className="result__img-img" />
-        </div>
-      </div>
-
-      <div className="section result__demo">
-        <h2 className="section__title">Plan your week</h2>
-        <span className="section__subtitle">
-          User Task 2
-        </span>
-        <div className="result__img">
-          <img src={exhaleDemo2} alt="" className="result__img-img" />
-        </div>
-      </div>
-
-      <div className="section result__demo">
-        <h2 className="section__title">Change what motivates you</h2>
-        <span className="section__subtitle">
-          User Task 3
-        </span>
-        <div className="result__img">
-          <img src={exhaleDemo3} alt="" className="result__img-img" />
-        </div>
-      </div> */}
-
-      {/* 
-      <div className="about__container container grid">
-        <div className="about__data">
-          <h3>Plan your activities</h3>
-          <p className="about__description">
-            Users are able to easily plan and update their workout schedule
-            based on preexisting plans and stress levels.
-          </p>
-        </div>
-        <div className="result__img">
-          <img src={exhaleDemo1} alt="" className="result__img-img" />
-        </div> 
-      </div> */}
     </section>
   );
 };

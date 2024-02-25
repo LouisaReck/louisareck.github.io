@@ -7,7 +7,7 @@ import exhaleMockup from "../../assets/exhaleMockup.png"
 
 const Overview = () => {
   return (
-    <section className="section">
+    <section className="section container">
       <h2 className="section__title">Project Overview</h2>
       <span className="section__subtitle">The Task</span>
       <p className="section__text-1">
@@ -24,7 +24,7 @@ const Overview = () => {
         consistent exercise habit.
       </p>
 
-      <img src={exhaleMockup} alt="" className="exhale__mockup container" />
+      <img src={exhaleMockup} alt="" className="exhale__mockup" />
 
       {/* <div className="overview__cards container grid">
         <img className="card__image" src={exhalegrid4} />
