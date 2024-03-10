@@ -35,12 +35,12 @@ export const projectsData = [
   //   title: "Data Story",
   //   category: "Development",
   // },
-  // {
-  //   id: 5,
-  //   image: Work5,
-  //   title: "Podcaster Redesign",
-  //   category: "UI/UX",
-  // },
+  {
+    id: 5,
+    image: Work5,
+    title: "Podcaster Redesign",
+    category: "UI/UX",
+  },
   // {
   //   id: 6,
   //   image: Work6,
@@ -54,18 +54,18 @@ export const projectsData = [
     subtitle: "A digi-physical product for household energy consumption",
     category: "Product design",
   },
-  // {
-  //   id: 8,
-  //   image: Work8,
-  //   title: "Reimagine Starbucks",
-  //   category: "Product design",
-  // },
-  // {
-  //   id: 9,
-  //   image: Work9,
-  //   title: "MovieSwipe",
-  //   category: "Development",
-  // },
+  {
+    id: 8,
+    image: Work8,
+    title: "Reimagine Starbucks",
+    category: "Product design",
+  },
+  {
+    id: 9,
+    image: Work9,
+    title: "MovieSwipe",
+    category: "Development",
+  },
 ];
 
 export const projectsNav = [
