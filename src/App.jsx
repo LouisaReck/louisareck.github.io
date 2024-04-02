@@ -14,6 +14,8 @@ import Bookit from "./components/bookit/Bookit";
 import Pendeln from "./components/pendeln/Pendeln";
 import Starbucks from "./components/starbucks/Starbucks";
 import Skills from "./components/skills/Skills";
+import Moviematch from "./components/moviematch/Moviematch";
+import Podcaster from "./components/podcaster/Podcaster";
 
 const App = () => {
   return (
@@ -47,6 +49,9 @@ const App = () => {
         <Route path="/work/2" element={<Bookit />} />
         <Route path="/work/7" element={<Pendeln />} />
         <Route path="/work/8" element={<Starbucks />} />
+        <Route path="/work/9" element={<Moviematch/>} />
+        <Route path="/work/5" element={<Podcaster/>} />
+
       </Routes>
       <Footer />
       <Scrollup />

@@ -63,7 +63,7 @@ export const projectsData = [
   {
     id: 9,
     image: Work9,
-    title: "MovieSwipe",
+    title: "MovieMatch",
     category: "Development",
   },
 ];
