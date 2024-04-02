@@ -12,6 +12,7 @@ import Scrollup from "./components/scrollup/Scrollup";
 import Exhale from "./components/exhale/Exhale";
 import Bookit from "./components/bookit/Bookit";
 import Pendeln from "./components/pendeln/Pendeln";
+import Starbucks from "./components/starbucks/Starbucks";
 import Skills from "./components/skills/Skills";
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
         <Route path="/work/1" element={<Exhale />} />
         <Route path="/work/2" element={<Bookit />} />
         <Route path="/work/7" element={<Pendeln />} />
+        <Route path="/work/8" element={<Starbucks />} />
       </Routes>
       <Footer />
       <Scrollup />

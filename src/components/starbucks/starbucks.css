@@ -1,0 +1,22 @@
+.starbucks__img {
+    justify-self: center;
+}
+
+
+.starbucks__img-img {
+    width: 600px;
+    justify-self: center;
+    order: 1;
+}
+
+.starbucks__overview{
+    margin-bottom: var(--mb-2);
+}
+
+
+.hmw {
+color: var(--title-color) ;
+padding: 5rem;
+font-size: var(--h2-font-size);
+
+}
