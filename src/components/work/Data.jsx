@@ -51,14 +51,13 @@ export const projectsData = [
     id: 7,
     image: Work7,
     title: "Household Energy Interface",
-    subtitle: "A digi-physical product for household energy consumption",
-    category: "Product design",
+    category: "Design",
   },
   {
     id: 8,
     image: Work8,
     title: "Reimagine Starbucks",
-    category: "Product design",
+    category: "Design",
   },
   {
     id: 9,
@@ -79,6 +78,6 @@ export const projectsNav = [
     name: "Development",
   },
   {
-    name: "Product design",
+    name: "Design",
   },
 ];

@@ -136,8 +136,8 @@ const Skills = () => {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                  <h3 className="skills__name">Design Thinking</h3>
-                  <span className="skills__level">Advanced</span>
+                  <h3 className="skills__name">Autodesk Alias</h3>
+                  <span className="skills__level">Basic</span>
                 </div>
               </div>
 
