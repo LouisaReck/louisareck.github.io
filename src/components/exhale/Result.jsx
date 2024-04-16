@@ -29,39 +29,38 @@ const Result = () => {
         <h2 className="section__title container">The Result</h2>
         <span className="section__subtitle">The Final App</span>
         <p className="section__text-1">
-          The final result of teh project is a prototype of an application
-          called Exhale. Exhale is the app for NUS students to easily plan and
-          update their workout schedules, input their motivations for working
-          out, and find NUS sports activities based on their interests and
-          friends' activities, making it easier for them to develop a consistent
-          exercise habit and achieve their fitness goals.
+          The final result of the project was a prototype of an application
+          called Exhale. Exhale allows NUS students to easily plan and update
+          their exercise schedules, input their motivations for exercising, and
+          find NUS sports activities based on their interests and friends'
+          activities. In addition, Exhale makes it easier for students to
+          develop a consistent exercise habit and achieve their fitness goals.
         </p>
       </div>
 
+      <h3 className="section__title-small">Find sports activities</h3>
+      <span className="section__subtitle-margin">User Task 1</span>
+      <div className="overview__cards container grid">
+        <img className="card__image" src={usertask1_1} />
+        <img className="card__image" src={usertask1_2} />
+        <img className="card__image" src={usertask1_3} />
+      </div>
 
-        <h3 className="section__title-small">Find sports activities</h3>
-        <span className="section__subtitle-margin">User Task 1</span>
-        <div className="overview__cards container grid">
-          <img className="card__image" src={usertask1_1} />
-          <img className="card__image" src={usertask1_2} />
-          <img className="card__image" src={usertask1_3} />
-        </div>
+      <h3 className="section__title-small">Plan your week</h3>
+      <span className="section__subtitle-margin">User Task 2</span>
+      <div className="overview__cards container grid">
+        <img className="card__image" src={usertask2_1} />
+        <img className="card__image" src={usertask2_2} />
+        <img className="card__image" src={usertask2_3} />
+      </div>
 
-        <h3 className="section__title-small">Plan your week</h3>
-        <span className="section__subtitle-margin">User Task 2</span>
-        <div className="overview__cards container grid">
-          <img className="card__image" src={usertask2_1} />
-          <img className="card__image" src={usertask2_2} />
-          <img className="card__image" src={usertask2_3} />
-        </div>
-
-        <h3 className="section__title-small">Change what motivates you</h3>
-        <span className="section__subtitle-margin">User Task 3</span>
-        <div className="overview__cards container grid">
-          <img className="card__image" src={usertask3_1} />
-          <img className="card__image" src={usertask3_2} />
-          <img className="card__image" src={usertask3_3} />
-        </div>
+      <h3 className="section__title-small">Change what motivates you</h3>
+      <span className="section__subtitle-margin">User Task 3</span>
+      <div className="overview__cards container grid">
+        <img className="card__image" src={usertask3_1} />
+        <img className="card__image" src={usertask3_2} />
+        <img className="card__image" src={usertask3_3} />
+      </div>
     </section>
   );
 };

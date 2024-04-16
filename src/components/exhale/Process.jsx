@@ -11,12 +11,11 @@ const Process = () => {
       <div className="section__container container grid">
         <div className="section__data">
           <p className="section__text-2">
-            This project is based on a user-centric design process. The process
-            consisted of three different phases with several iterations. Firstly
-            , we identified the problem and conducted user research. Then, we
-            came up with ideas and solutions and created prototypes in Figma.
-            The last phase consisted of evaluating and improving the final
-            project.
+            This project is based on a user-centred design process. The process
+            consisted of three distinct phases with several iterations. First,
+            we identified the problem and conducted user research. Then we
+            generated ideas and solutions and prototyped in Figma. The last
+            phase was to evaluate and improve the final prototype.
           </p>
         </div>
         <div className="section__img-2">

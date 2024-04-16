@@ -13,10 +13,10 @@ const Usertask = () => {
       <h2 className="section__title-small">Key User Tasks</h2>
       <span className="section__subtitle">The result of our user research</span>
       <p className="section__text-1">
-        We further analyzed the data and created three key user tasks. For each
-        task, we also created a scenario and a storyboard. In addition we also
-        created two personas different personas for the primary user group to
-        get a better understanding of the users.
+        We further analysed the data and created three key user tasks. For each
+        task we also created a scenario and a storyboard. We also created two
+        different personas for the primary user group to get a better
+        understanding of the users.
       </p>
 
       <div className="usertask__container container grid">
@@ -26,7 +26,7 @@ const Usertask = () => {
             <h3 className="usertask__title">1. Plan activities</h3>
             <span className="usertask__description">
               Users should be able to easily plan and update their workout
-              schedule based on preexisting plans and stress levels.
+              schedule based on pre-existing plans and stress levels.
             </span>
 
             <span className="usertask__button" onClick={() => toggleTab(1)}>
@@ -55,22 +55,22 @@ const Usertask = () => {
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      83% of survey respondents were not happy with their
+                      83% of survey respondents were not satisfied with their
                       workout schedule.
                     </p>
                   </li>
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      Our Survey found that 94% of students are motivated to
-                      exercise by free time.
+                      Our survey found that 94% of students have leisure time as
+                      a motivator for physical activity.
                     </p>
                   </li>
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      The Interviews revealed the time allocation struggles,
-                      with deadlines affecting schedules. Flexibility in
+                      The interviews revealed the problems of time allocation,
+                      with deadlines affecting the schedule. Flexibility in
                       planning is crucial for students.
                     </p>
                   </li>
@@ -84,8 +84,8 @@ const Usertask = () => {
             <i className="uil uil-edit-alt usertask__icon"></i>
             <h3 className="usertask__title">2. Edit motivation </h3>
             <span className="usertask__description">
-              Users should be able to input their incentives for working out in
-              order to be motivated when necessary.
+              Users should be able to set their own incentives for exercising to
+              motivate them when needed.
             </span>
 
             <span onClick={() => toggleTab(2)} className="usertask__button">
@@ -112,16 +112,17 @@ const Usertask = () => {
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      Users have different incentives for working out, and their
-                      motivation should be sustained by using their incentives.
+                      Our research found that users have different incentives
+                      for exercising, and their motivation should be sustained
+                      by using their incentives.
                     </p>
                   </li>
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      The survey identified feeling good, enjoying the company
-                      of friends, and taking a break as reasons for working out,
-                      which can encourage users to follow through with plans or
+                      The survey found that feeling good, enjoying the company
+                      of friends and taking a break as reasons for exercising,
+                      which can encourage users to stick to their plans or
                       schedule another workout.
                     </p>
                   </li>
@@ -135,8 +136,8 @@ const Usertask = () => {
             <i className="uil uil-search usertask__icon"></i>
             <h3 className="usertask__title">3. Find activities</h3>
             <span className="usertask__description">
-              Users should be able to find thier universities sports activities
-              based on interests and friends’ activities.
+              Users should be able to find their university's sports activities
+              based on their interests and friends' activities.
             </span>
 
             <span onClick={() => toggleTab(3)} className="usertask__button">
@@ -163,28 +164,27 @@ const Usertask = () => {
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      Interviews indicated socializing as a key motivator, but
-                      users struggled to find fitting activities.
+                      Interviews revealed that socialising was a key motivator,
+                      but users struggled to find suitable activities.
                     </p>
                   </li>
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      Users struggled to organize activities with friends, our
-                      app has to provide a simple way to do so.
+                      Users were struggling to organise activities with friends.
                     </p>
                   </li>
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      Our Survey found that social support is important,
+                      Our survey found that social support is important, so
                       promoting group exercise could be effective.
                     </p>
                   </li>
                   <li className="usertask__modal-point">
                     <i className="uil uil-info-circle usertask__modal-icon"></i>
                     <p className="usertask__modal-info">
-                      Gym and NUS sports clubs were popular workout options
+                      Gyms and NUS sports clubs were popular ways to exercise
                       among respondents (47%). The app should make it easy to
                       find NUS sport activities.
                     </p>

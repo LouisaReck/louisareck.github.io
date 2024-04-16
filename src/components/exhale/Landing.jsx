@@ -9,9 +9,9 @@ const Landing = () => {
           <h1 className="exhale__title">Exhale App</h1>
 
           <p className="exhale__description">
-            A project from the course Interaction Design that I took during my
+            A project from the Interaction Design course I took during my
             semester at the National University of Singapore (NUS). The result
-            was a motivational fitness planner for students at NUS.
+            was a motivational fitness planner for NUS students.
           </p>
 
           <div className="landing__data">

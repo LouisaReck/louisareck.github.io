@@ -39,7 +39,7 @@
     position: relative;
     font-size: var(--h3-font-size);
     color: var(--accent-color);
-    padding-left: 5.4rem;
+    padding-left: 4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
@@ -47,7 +47,7 @@
 .home__subtitle::before {
     content: '';
     position: absolute;
-    width: 70px;
+    width: 50px;
     height: 1px;
     background-color: var(--accent-color);
     left: 0;
