@@ -10,7 +10,7 @@ const Landing = () => {
 
           <p className="exhale__description">
             MovieMatch was a group project that was part of the course Mobile
-            computing where we designed and implemented a mobile application on
+            Computing where we designed and implemented a mobile application on
             the theme of collaborative interaction.
           </p>
 

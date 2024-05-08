@@ -24,7 +24,7 @@ const About = () => {
             <br />
             <br />
             Being curious and open-minded, I traveled to Australia, New Zealand,
-            and Asia. In my free time, I like going to the gym, playing
+            during my gap year and to South East Asia during my exchange semester. In my free time, I like going to the gym, playing
             football, learning front-end development and spending time with
             family and friends.
           </p>

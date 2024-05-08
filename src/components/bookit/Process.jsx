@@ -13,9 +13,8 @@ const Process = () => {
             The problem statement and requirements were given at the beginning
             of the project, so my work began with benchmarking. I took
             inspiration from other booking resources such as TimeEdit and
-            Airbnb. In addition I interviewed a teacher and a student to get an
-            insight into their current experience of booking rooms and
-            equipments.
+            Airbnb. In addition, I interviewed a teacher and a student to get an
+            insight into their current experience booking rooms and equipment.
             <br /> <br />
             After I had gathered some information, I started creating some
             wireframes. During the website design process, I also asked friends

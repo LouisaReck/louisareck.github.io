@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Data = () => {
   const [typeEffect] = useTypewriter({
-    words: ["an Industrial Design Engineer", "a UX-designer", "a Frontend Developer"],
+    words: ["an Industrial Design Engineer", "a UX-designer", "a creative problem solver"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 50,
@@ -70,7 +70,7 @@ const Data = () => {
       </h3>
       <p className="home__description">
         Im a 5th year industrial design engineer student specialized in
-        Interaction Design with a newfound passion for frontend development.
+        Interaction Design who is currently looking for new opportunities. 
       </p>
 
       <HashLink className="button button--flex" to="/about">

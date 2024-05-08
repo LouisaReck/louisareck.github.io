@@ -26,12 +26,7 @@ const Process = () => {
           Observations, Interviews & Survey
         </span>
         <p className="section__text-1">
-          We started the project with choosing a Starbucks cafe on campus and
-          conducting user research. We observed the environment, interviewed two
-          employees and sent out a survey to 35 customers. We analyzed the
-          gathered data with an Affinity Diagram and from the user research we
-          found that many of the customers are students who come to Starbucks to
-          study and not everyone feels obligated to buy food and drinks.
+        We started the project by choosing a Starbucks cafe on campus and conducting user research. We observed the environment, interviewed two employees, and sent out a survey to 35 customers. We analyzed the gathered data with an Affinity Diagram. From the user research, we found that many customers are students who come to Starbucks to study, and only some feel obligated to buy food and drinks.
         </p>
       </div>
 

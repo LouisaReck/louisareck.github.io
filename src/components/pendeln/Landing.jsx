@@ -1,5 +1,5 @@
 import React from "react";
-import Pendeln1 from "../../assets/Pendeln1.png"
+import Pendeln1 from "../../assets/Pendeln1.png";
 
 const Landing = () => {
   return (
@@ -11,7 +11,7 @@ const Landing = () => {
           <p className="pendeln__description">
             This project was part of my Bachelor Thesis and was a collaboration
             with the design studio BOID. The task was to create a digi-physical
-            product for visualization of household energy consumption.
+            product to visualize household energy consumption.
           </p>
 
           <div className="landing__data">

@@ -1,7 +1,6 @@
 import React from "react";
-import background1 from "../../assets/background1.png";
 import bookit1 from "../../assets/bookit1.png";
-import ScrollDown from "../home/ScrollDown";
+
 
 const Landing = () => {
   return (

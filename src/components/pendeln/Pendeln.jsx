@@ -18,9 +18,6 @@ const Pendeln = () => {
       <Overview />
       <Process />
       <Result />
-      
-
-
     </div>
   )
 }

@@ -36,7 +36,7 @@ const Result = () => {
         process of reserving rooms and equipment. The website also provides a
         filter option to search for available resources based on specific
         criteria such as time, date, and room or equipment type. Users can also
-        conveniently book multiple rooms and equipment at once as well as share
+        conveniently book multiple rooms and equipment simultaneously and share
         their bookings with others. Additionally, the website offers
         user-friendly features for easy creation, editing, and cancellation of
         bookings.
@@ -101,45 +101,6 @@ const Result = () => {
         <img src={bookitMenus} alt="" className="overview__menu-img" />
       </div>
     </section>
-
-    // <section className="section">
-    //   <h2 className="section__title">Result</h2>
-    //   <span className="section__subtitle">The Interface</span>
-
-    //   <div className="section__container-bookit-1 container grid">
-    //     <div className="section__data">
-    //       <h2 className="section__title-bookit">Home Page</h2>
-    //       <p className="section__text-2">
-    //         The website's home page offers direct access to search and filter
-    //         functionality, enabling users to easily find available resources
-    //         that meet their specific needs even without logging in. However, to
-    //         make new bookings and access current bookings, users must log in to
-    //         the website.
-    //       </p>
-    //     </div>
-    //     <div className="section__img-2-bookit">
-    //       <img src={bookitPage1} alt="" className="result__img-img" />
-    //       {/* <p className="about__img-text">Part of the affinity diagram</p> */}
-    //     </div>
-    //   </div>
-
-    //   <div className="section__container-bookit-2 section container grid">
-    //     <div className="section__img-2-bookit">
-    //       <img src={bookitPage2} alt="" className="result__img-img" />
-    //       {/* <p className="about__img-text">Part of the affinity diagram</p> */}
-    //     </div>
-    //     <div className="section__data">
-    //       <h2 className="section__title-bookit">Home Page</h2>
-    //       <p className="section__text-2">
-    //         The website's home page offers direct access to search and filter
-    //         functionality, enabling users to easily find available resources
-    //         that meet their specific needs even without logging in. However, to
-    //         make new bookings and access current bookings, users must log in to
-    //         the website.
-    //       </p>
-    //     </div>
-    //   </div>
-    // </section>
   );
 };
 

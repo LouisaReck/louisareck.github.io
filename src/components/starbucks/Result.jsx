@@ -34,15 +34,14 @@ const Result = () => {
       <span className="section__subtitle">Reimagine Starbucks </span>
       <div className="container">
         <p className="section__text-1">
-          We redesigned the layout with the aim of creating a co-sharing space
-          between Starbucks outlet and the collaborative space, yet at the same
-          time, have a clear and divided designated use of each space- whereby
-          diners only dines at the starbucks side and students only study at the
-          collaborative work space.
+          We redesigned the layout to create a co-sharing space between the
+          Starbucks outlet and the collaborative space. At the same time, we
+          aimed to have a clear and divided designated use of each space whereby
+          diners only dine at the Starbucks side, and students only study at the
+          collaborative workspace.
         </p>
 
         <img src={starbucksResult1} alt="" className="starbucks__overview" />
-
 
         <Swiper
           pagination={true}

@@ -1,7 +1,6 @@
 import React from "react";
 import starbucks1 from "../../assets/starbucks1.png";
 
-
 const Landing = () => {
   return (
     <section className="starbucks section" id="starbucks">
@@ -10,9 +9,9 @@ const Landing = () => {
           <h1 className="exhale__title">Reimagine Starbucks</h1>
 
           <p className="exhale__description">
-            A project from the course Human-Centred Design that i took during
-            my exchange semester at the National University of Singapore (NUS). The
-            result was a improved redesign of a Starbucks cafe.
+            A project from the Human-Centred Design course I took during my
+            exchange semester at the National University of Singapore (NUS). The
+            result was an improved redesign of a Starbucks cafe.
           </p>
 
           <div className="landing__data">

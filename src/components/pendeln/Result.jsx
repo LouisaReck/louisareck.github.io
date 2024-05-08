@@ -23,16 +23,15 @@ const Result = () => {
       <div className="container">
         <p className="section__text-1">
           The final concept consists of a wall-mounted device with an E-ink
-          display. Under the display, a ring is placed which moves upwards when
-          electricity consumption in the household is raised, and down when it
-          is lowered.
+          display. Under the display, a ring is placed that moves upwards when
+          household electricity consumption is raised and down when it is
+          lowered.
         </p>
         <img src={pendelnResult1} alt="" />
         <p className="section__text-1 section">
           The digital interface mainly consists of four different pages, one of
-          which acts screensaver. On this screen saver, a forecast of better and
-          worse times to consume electricity is displayed for the coming twelve
-          hours.
+          which is a screensaver. This screensaver forecasts the best and worst
+          times to consume electricity for the next twelve hours.
         </p>
         <img src={pendelnResult2} alt="" />
       </div>

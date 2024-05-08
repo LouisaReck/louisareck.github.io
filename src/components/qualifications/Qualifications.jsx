@@ -138,7 +138,7 @@ const Qualifications = () => {
 
               <div>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> January 2024 -
+                  <i className="uil uil-calendar-alt"></i> January 2024 - March 2024
                 </div>
                 <h3 className="qualification__title">
                   Female Tech Engineer 2024

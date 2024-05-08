@@ -23,11 +23,10 @@ const Process = () => {
         <div className="section__data">
           <p className="section__text-2">
             The design process was divided into three different phases. The
-            first phase consisted of infomration gathering and user studies in
-            order to form a list of requirements. The second phase consisted of
-            ideation and the development of concepts. The last phase included
-            different evaluations with users such as a usability test and a
-            survey.
+            first phase consisted of information gathering and user studies to
+            form a list of requirements. The second phase consisted of ideation
+            and the development of concepts. The last phase included different
+            evaluations with users, such as a usability test and a survey.
           </p>
         </div>
         <div className="section__img-2">
@@ -56,11 +55,11 @@ const Process = () => {
         <div className="section__data">
           <p className="section__text-2"></p>
           We started the ideation phase by brainstorming and brainwriting based
-          on different focus areas. Together with BOID, we also held a workshop
-          that focused on generating a lot of ideas and looking at the problem
-          from various angles. After the quantitative idea generation, the
-          process continued with more detailed and structured ideation sessions
-          that focused more on how realizable the different ideas were.
+          on different focus areas. We also held a workshop with BOID that
+          focused on generating many ideas and looking at the problem from
+          various angles. After the quantitative idea generation, the process
+          continued with more detailed and structured ideation sessions that
+          focused more on how realizable the different ideas were.
           <br /> <br />
           Based on the result from the ideation phase, we created a
           morphological matrix utilizing the requirements gathered at the start
@@ -101,10 +100,13 @@ const Process = () => {
         <h2 className="section__title-small">Protoyping</h2>
         <span className="section__subtitle">An iterative Process</span>
         <p className="section__text-1">
-          The concepts were finally narrowed down to a single concept which was
-          chosen in large part due to its simplicity and feasibility. For this
-          project, the ability to create a working prototype was also essential
-          for testing, which had to be considered during concept selection.
+          The concepts were finally narrowed down to one, primarily chosen due
+          to its simplicity and feasibility. Creating a working prototype for
+          this project was also essential for testing, which had to be
+          considered during concept selection. chosen in large part due to its
+          simplicity and feasibility. For this project, the ability to create a
+          working prototype was also essential for testing, which had to be
+          considered during concept selection.
         </p>
 
         <img src={pendelnPrototype} alt="" />
@@ -117,13 +119,13 @@ const Process = () => {
         <p className="section__text-1">
           After extensive prototyping, we conducted three types of evaluations
           with different goals. Firstly, we sent out a survey to get
-          quantitative data on how different colors were percieved from a gender
+          quantitative data on how different colors were perceived from a gender
           perspective. The result from the survey was the basis for the design
           of the digital interface. Secondly, we conducted a usability test to
-          evaluate the learnability of the digital interface. Lastly we tested
-          the physical protoype in a real houshold for several days to see if it
-          had the intended effect. After all the testing was done, we analyzed
-          the results and did some adjustments to the final result.
+          evaluate the learnability of the digital interface. Lastly, we tested
+          the physical prototype in a real household for several days to see if
+          it had the intended effect. After all the testing was done, we
+          analyzed the results and made some adjustments to the final result.
         </p>
       </div>
     </section>
