@@ -23,8 +23,9 @@ const About = () => {
             always eager to learn new things.
             <br />
             <br />
-            Being curious and open-minded, I traveled to Australia, New Zealand,
-            during my gap year and to South East Asia during my exchange semester. In my free time, I like going to the gym, playing
+            Being curious and open-minded, I traveled to Australia and New Zealand
+            during my gap year and to South East Asia during my exchange
+            semester. In my free time, I like going to the gym, play
             football, learning front-end development and spending time with
             family and friends.
           </p>
