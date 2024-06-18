@@ -69,7 +69,7 @@ const Data = () => {
         <span>I'm {typeEffect}</span>
       </h3>
       <p className="home__description">
-        Im a 5th year industrial design engineer student specialized in
+        I'm an industrial design engineer student specialized in
         Interaction Design who is currently looking for new opportunities. 
       </p>
 
