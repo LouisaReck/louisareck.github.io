@@ -69,8 +69,8 @@ const Data = () => {
         <span>I'm {typeEffect}</span>
       </h3>
       <p className="home__description">
-        I'm an industrial design engineer student specialized in
-        Interaction Design who is currently looking for new opportunities. 
+        Industrial Design Engineer specialized in
+        Interaction Design based in Gothenburg. 
       </p>
 
       <HashLink className="button button--flex" to="/about">
