@@ -17,17 +17,19 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description">
-            I am a 25-year-old industrial design engineer passionate about
-            creating seamless and intuitive user experiences and eager to use
-            design to influence how people interact with technology positively.
-            I am a team player who thrives in collaborative environments and is
-            always eager to learn new things.
+            I'm a 26-year-old industrial design engineer who's passionate about
+            creating seamless and intuitive user experiences. I love using
+            design to make technology feel more intuitive and enjoyable to use.
+            I'm a team player who thrives in collaborative environments, and I'm
+            always excited to learn something new.
             <br />
-            <br />I am always up for an adventure and being curious and
-            open-minded, I traveled to Australia and New Zealand during my gap
-            year and to South East Asia during my exchange semester. In my free
-            time, I like going to the gym, playing football, learning front-end
-            development and spending time with family and friends.
+            <br />
+            I'm curious and open-minded, and I'm always up for an adventure.
+            During my gap year, I traveled around Australia and New Zealand, and
+            during my exchange semester, I took the chance to explore Southeast
+            Asia too. In my free time, I'm training for my first half marathon,
+            keeping up a 3-year Duolingo streak, and spending time with family
+            and friends.
           </p>
 
           <a download="" href={CV} className="button button--flex">

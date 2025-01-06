@@ -51,7 +51,7 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2024
                 </div>
                 <h3 className="qualification__title">
                   MSc, Interaction Design & Technologies
@@ -114,9 +114,29 @@ const Qualifications = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
               <div>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> January 2024 -
+                  <i className="uil uil-calendar-alt"></i> October 2024 -
+                </div>
+                <h3 className="qualification__title">
+                  Developer & UX Designer
+                </h3>
+                <span className="qualification__subtitle">Stena Line</span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> January 2024 - Mai
+                  2024
                 </div>
                 <h3 className="qualification__title">Master Thesis</h3>
                 <span className="qualification__subtitle">Spotfire</span>
@@ -138,7 +158,8 @@ const Qualifications = () => {
 
               <div>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> January 2024 - March 2024
+                  <i className="uil uil-calendar-alt"></i> January 2024 - March
+                  2024
                 </div>
                 <h3 className="qualification__title">
                   Female Tech Engineer 2024
@@ -152,40 +173,17 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Spring 2022
+                  <i className="uil uil-calendar-alt"></i> Summer 2019 & 2020
                 </div>
-                <h3 className="qualification__title">
-                  Bechelor Thesis
-                </h3>
+                <h3 className="qualification__title">Store Manager</h3>
                 <span className="qualification__subtitle">
-                  Product Design Studio Boid
+                  ICA nära Böda Sand
                 </span>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
-                </div>
-                <h3 className="qualification__title">
-                  Student Educational Committee
-                </h3>
-                <span className="qualification__subtitle">
-                  Division of Industrial Design Engineering
-                </span>
               </div>
             </div>
           </div>
